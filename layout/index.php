@@ -16,6 +16,7 @@
     accusamus a animi hic deleniti ut nihil sapiente ipsam, odio et quo, ex nam dolorum, at aliquid.
 </p>
 
+<p> Lorem </p>
 
 
 <?php include "footer.php" ?>
