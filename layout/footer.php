@@ -5,9 +5,23 @@
 
   <!-- Copyright -->
   <div class="footer-copyright text-center py-3">© 2020 Copyright
-  </div>
-  <!-- Copyright -->
+ <br> <?php
+ // create a variable to store the current file
+ // $_SERVER is an array that contain information about Server and execution environment information
+ // https://www.php.net/manual/en/reserved.variables.server.php
+ // PHP_SELF - it gets the filename of the currently executing script
+ //basename it returns the trailinig name component of a path
+ // filemtime — Gets file modification time https://www.php.net/manual/en/function.filemtime
+ 
 
+$fname = basename($_SERVER['PHP_SELF']);
+$last_modified = filemtime($fname); 
+echo "Last modified on:  " . date('l jS \o\f F Y, h:i:s A', $last_modified);
+?>  
+
+</div>
+  <!-- Copyright -->
+  
 </footer></div>
 </div>
 

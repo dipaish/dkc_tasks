@@ -1,21 +1,22 @@
-<?php include "header.php" ?>
+<?php
+$title = "Exercise 1";
+include "header.php" ?>
 <h3> 3.1 Write a simple PHP script to print your information (Name and your groupid) </h3>
 <?php
-echo "Deepak KC <br>";
-echo "BBCAP22";
+echo "<p class='answer'>Deepak KC <br> BBCAP22 </p>";
 ?> 
 <h3>  3.2 Write PHP code to display the following message. </h3>
 <?php
-echo "Hello World ! My name is  \"David \"";
+echo "<p class='answer'>Hello World ! My name is  \"David \" </p>";
 ?>
-<h3> Current Date </h3>
-<?php echo date("d.m.Y") ?>
+<h3>3.3 Current Date </h3>
+<?php echo "<p class='answer'>". date("d.m.Y") ."</p>"?>
 
 
 <h3> 3.4 Variable in Php </h3>
 <?php
 $title1 = "PHP is interesting";
-echo "<h1>" . $title1 . "</h1>";
+echo "<h2 class='answer'>" . $title1 . "</h2>";
 ?>
 
 <h3> 3.5 Table & Variables </h3>
@@ -24,7 +25,7 @@ $g1 = 5;
 $g2 = 4;
 $g3 = 5;
 echo "
-<table>
+<table class='answer table'>
 <tr> 
 <th> S.N </th><th> Name </th><th> Grade </th>
 </tr>
@@ -40,7 +41,8 @@ echo "
 </table>
 ";
 ?>
-
+<h3> 4 Screenshot of the development environment </h3>
+<img src="" alt="">
 <?php include "footer.php" ?>
 
 
