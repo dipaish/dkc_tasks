@@ -2,12 +2,22 @@
 <?php 
 $title = "Crud App - Form to get data"; 
 include '../layout/header.php' ?>
+<script>
+function crud() {
+  let fname=(document.form1.fname.value).trim();
+  if (fname.length<5){
+    alert("First Name must have atleast 5 characters");
+    return false;
+  }
+
+}
+  </script>
 
 <h2> Input your information below: </h2>
-<form name= "form1" method="post" action="">
+<form name= "form1" method="post" action="" onsubmit="return crud()" required>
   <div class="row">
     <div class="col">
-      <input type="text" class="form-control" placeholder="First name" name="fname" required>
+      <input type="text" class="form-control" placeholder="First name" name="fname" required pattern='[A-Za-z\\s]*'>
     </div>
     <div class="col">
       <input type="text" class="form-control" placeholder="Last name" name="lname" required>

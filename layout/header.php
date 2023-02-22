@@ -38,7 +38,21 @@ h2 {
   border-bottom:1px solid #CCC;
   border-top:1px solid #CCC;
 }
+      input:invalid {
+        border: 2px dashed red;
+      }
+
+      input:invalid:required {
+        background-image: linear-gradient(to right, pink, lightgreen);
+      }
+
+      input:valid {
+        border: 2px solid black;
+      }
+
+
     </style>
+  <script src="../layout/js/site.js"> </script>
 </head>
 <body>
   <div class="container" >
@@ -74,6 +88,7 @@ h2 {
       <ul class="sidebar"> 
         <li><a href="../layout/sinput.php">Simple Input </a></li>
         <li><a href="../layout/browser.php">Detect Browser </a></li>
+        <li><a href="../layout/js2.php">Form Validations </a></li>
   </ul>
   <h4>Simple CRUD APP</h4>
       <ul class="sidebar"> 
