@@ -1,4 +1,5 @@
 <?php
+include 'lect2/header.php';
 // This is your first script in PHP
 echo "Hello, world!";
 
@@ -35,4 +36,5 @@ echo "How are you?<br>";
 //Printing in a new line (in a command-line interface)
 echo "Hello, World!\n";
 echo "How are you?\n";
+include 'lect2/footer.php';
 ?>
