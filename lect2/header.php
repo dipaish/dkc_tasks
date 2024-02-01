@@ -25,16 +25,16 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="/dkc_tasks/ex1.php">Exercise 1</a>
+          <a class="nav-link" aria-current="page" href="lect1.php">Exercise 1</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/dkc_tasks/ex2.php">Exercise 2 </a>
+          <a class="nav-link" href="lect33">Exercise 2 </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Exercise 3</a>
+          <a class="nav-link" href="ex3.php">Exercise 3</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Exercise 4</a>
+          <a class="nav-link" href="ex4.php">Exercise 4</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Exercise 5</a>
