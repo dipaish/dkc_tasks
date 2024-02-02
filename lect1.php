@@ -19,7 +19,7 @@ echo $myString;
 echo "He said, \"Learn PHP. It's fun!\"";
 
 // Echoing variables
-$var1 = "Hello";
+$var1 = "Hello ";
 $var2 = "World";
 echo $var1 . " " . $var2; 
 
