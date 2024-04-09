@@ -1,5 +1,5 @@
 <?php 
-$title = "Exercise 3: Variable, Strings & Operators";
+$title = "Exercise 3: Variable, Strings & Operators:";
 include 'lect2/header.php'; ?>
 
 <h3>Form Creation: Create a simple HTML form to collect the user’s Firstname and Lastname. Use the echo statement
